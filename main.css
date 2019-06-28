@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.carousel-item {
+    height: 40rem;
+}
+
+.arrow {
+    font-size: 44px;
+    color: white;
+    height: 23rem;
+    z-index: 1;
+}
+
+#imageSlider {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#sectionImage {
+    height: 30rem;
+    width: 100%;
+    position: fixed;
+}
+
+#marylandColor {
+    background: linear-gradient(to right, black 25%, red 100%);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#mdMap {
+    border: 1px solid black;
+}
+
+#ourgoalP {
+    font-weight: 600;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+#quote {
+    opacity: 0.3;
+}
+
+.quoteH {
+    opacity: 1;
+}
